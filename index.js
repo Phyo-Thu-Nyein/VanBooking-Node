@@ -8,8 +8,8 @@ app.use(express.json({ limit: "50mb" }));
 app.use(cors({ origin: "*" }));
 
 //ROUTERS HERE
-app.use("/api/v1/auth");
-app.use("/api/v1/auth");
+// app.use("/api/v1/auth");
+// app.use("/api/v1/auth");
 
 //HEALTH CHECK
 app.get("/", (req, res) => {
